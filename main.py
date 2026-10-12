@@ -1,4 +1,8 @@
-﻿def make_greeting(name):
+﻿import pyfiglet
+
+
+def make_greeting(name):
     return f"Hello, {name}!"
 
-print(make_greeting("Viki"))
+
+print(pyfiglet.figlet_format(make_greeting("Viki")))
